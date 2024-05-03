@@ -6,3 +6,8 @@ public abstract class CommandValidator<TCommand, TCommandResult> : AbstractValid
     where TCommand : ICommand<TCommandResult>
 {
 }
+
+public abstract class CommandValidator<TCommand> : AbstractValidator<TCommand>
+    where TCommand : ICommand
+{
+}
