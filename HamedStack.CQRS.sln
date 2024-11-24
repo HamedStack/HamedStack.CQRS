@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HamedStack.CQRS.Behaviors.F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HamedStack.CQRS.Behaviors.Result", "HamedStack.CQRS.Behaviors.Result\HamedStack.CQRS.Behaviors.Result.csproj", "{F47F6FB6-72D7-4158-A052-B9A76F1E5F0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HamedStack.CQRS.ServiceCollection", "HamedStack.CQRS.ServiceCollection\HamedStack.CQRS.ServiceCollection.csproj", "{A9D187E9-46FB-424D-9539-338139F2D867}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F47F6FB6-72D7-4158-A052-B9A76F1E5F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F47F6FB6-72D7-4158-A052-B9A76F1E5F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F47F6FB6-72D7-4158-A052-B9A76F1E5F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D187E9-46FB-424D-9539-338139F2D867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D187E9-46FB-424D-9539-338139F2D867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D187E9-46FB-424D-9539-338139F2D867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D187E9-46FB-424D-9539-338139F2D867}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
